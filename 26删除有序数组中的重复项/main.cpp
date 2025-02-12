@@ -18,8 +18,13 @@ int removeDuplicates(vector<int>& nums) {
     return slow;
 }
 
+int n;
 int main() {
-
-    
+    cin >> n;
+    vector<int> nums;
+    for (int i = 0; i < n; i++) {
+        cin >> nums[i];
+    }
+    cout << removeDuplicates(nums) << endl;
     return 0;
 }
