@@ -33,8 +33,6 @@ int main() {
     for (int i = 0 ; i < n; i++) {
         cin >> nums[i];
     }
-    bool res = false;
-    res = canJump(nums);
-    cout << res;
+    cout << canJump(nums);
     return 0;
 }
