@@ -41,7 +41,7 @@ int main() {
     }
     vector<int> res = productExceptSelf(nums);
     for (int i = 0; i < n; i++) {
-        cout << res[i] << " ";
+        cout << res[i] << ' ';
     }
     return 0;
 }
